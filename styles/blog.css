@@ -155,14 +155,14 @@ footer{
     height: 444px;
     background-color: #161616;
 }
-.footer-info{
+.footer-details{
     width: 1320px;
     text-align: center;
     margin: auto;
         
 }
     
-.footer-info h2{
+.footer-details h2{
     color: white;
     font-weight: 600;
     font-size: 40px;
@@ -172,7 +172,7 @@ hr{
     border: 1px solid whitesmoke;
     margin: 50px 0;
 }
-.footer-info ul li a{
+.footer-details ul li a{
     text-decoration: none;
     color: white;
     padding: 0 30px;
