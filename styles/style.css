@@ -178,3 +178,91 @@ hr{
     padding: 0 30px;
     font-size: 30px;
 }
+
+/*-----------------
+     mobile responsive
+     ----------------- */
+
+@media only screen and (max-width: 688px){
+
+    .hero{
+        width: 334px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .hero-info{
+        width: 80%;
+        text-align: center;
+        padding: 10% 0;
+    }
+
+    .hero-info h1{
+        font-weight: 700;
+        font-size: 1.5em;
+        color: white;
+        line-height: 1.2em;
+    }
+
+    .hero-info p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    .hero-image{
+        display: grid;
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 70%;
+        margin: auto;
+    }
+
+    /* info starts  */
+
+    .info{
+        width: 334px;
+        flex-direction: column;
+    }
+    
+    aside{
+        width: 334px;
+        display: grid;
+        height: auto;
+    }
+
+    aside div{
+        border: 1px solid grey;
+    }
+
+    .container{
+        width: 334px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 24px;
+    }
+
+    .match-details{
+        margin: auto;
+    }
+
+    footer{
+        width: 334px;
+        height: 412px;
+    }
+
+    .footer-info{
+        width: 334px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer-info ul{
+        display: block;
+
+    }
+}
